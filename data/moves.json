@@ -1,0 +1,50 @@
+{
+  "tackle": {
+    "name": "Tackle",
+    "type": "Normal",
+    "category": "Physical",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 35,
+    "description": "A physical attack in which the user charges and slams into the target with its whole body."
+  },
+  "growl": {
+    "name": "Growl",
+    "type": "Normal",
+    "category": "Status",
+    "power": 0,
+    "accuracy": 100,
+    "pp": 40,
+    "description": "The user growls in an endearing way, making the opposing team less wary. The foes' Attack stats are lowered.",
+    "stat_changes": [{"stat": "attack", "change": -1, "target": "opponent"}]
+  },
+  "vine_whip": {
+    "name": "Vine Whip",
+    "type": "Grass",
+    "category": "Physical",
+    "power": 45,
+    "accuracy": 100,
+    "pp": 25,
+    "description": "The target is struck with slender, whiplike vines to inflict damage."
+  },
+  "ember": {
+    "name": "Ember",
+    "type": "Fire",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 25,
+    "description": "The target is attacked with small flames. This may also leave the target with a burn.",
+    "status_effect": {"effect": "burn", "chance": 10}
+  },
+  "bubble": {
+    "name": "Bubble",
+    "type": "Water",
+    "category": "Special",
+    "power": 40,
+    "accuracy": 100,
+    "pp": 30,
+    "description": "A spray of countless bubbles is jetted at the opposing team. This may also lower their Speed stats.",
+    "stat_changes": [{"stat": "speed", "change": -1, "target": "opponent", "chance": 10}]
+  }
+}

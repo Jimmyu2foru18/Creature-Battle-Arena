@@ -1,0 +1,53 @@
+{
+  "creature1": {
+    "name": "Leafling",
+    "type": "Grass",
+    "base_stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "speed": 45,
+      "special": 65
+    },
+    "moves": ["tackle", "growl", "vine_whip", "growth"],
+    "evolution": {
+      "level": 16,
+      "evolves_to": "creature2"
+    },
+    "sprite_folder": "leafling"
+  },
+  "creature2": {
+    "name": "Emberling",
+    "type": "Fire",
+    "base_stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "speed": 65,
+      "special": 50
+    },
+    "moves": ["scratch", "growl", "ember", "leer"],
+    "evolution": {
+      "level": 16,
+      "evolves_to": "creature3"
+    },
+    "sprite_folder": "emberling"
+  },
+  "creature3": {
+    "name": "Bubbling",
+    "type": "Water",
+    "base_stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "speed": 43,
+      "special": 50
+    },
+    "moves": ["tackle", "tail_whip", "bubble", "water_gun"],
+    "evolution": {
+      "level": 16,
+      "evolves_to": "creature4"
+    },
+    "sprite_folder": "bubbling"
+  }
+}
